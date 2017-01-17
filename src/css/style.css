@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:600,400|Monoton|Roboto:300,400');
+
+body {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.home-header {
+    text-align: center;
+    background: linear-gradient(to bottom, #22A9D8, #4C45FF);
+    height: 230px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.home-page-header {
+    font-family: 'Monoton', cursive;
+    font-size: 55px;
+    color: #fff;
+    position: relative;
+}
+
+.home-sub-header {
+    color: #fff;
+    font-family: avenir;
+    font-size: 18px;
+    font-style: oblique;
+    position: relative;
+    top: 7px;
+}
+
+.home-dates {
+    font-family: avenir;
+    font-size: 18px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-top: none;
+    border-bottom: none;
+    padding: 0 10px;
+    position: relative;
+    top: 40px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.background-card {
+    overflow: hidden;
+    width: 65%;
+    height: 350px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.background-color-card {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background: linear-gradient(to right, #473759, #353C98);
+    padding: 20px 20px 10px 20px;
+}
+
+.background-white-card {
+    width: 60%;
+    padding: 20px 20px 30px 20px;
+}
+
+.card-header {
+    font-family: avenir;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-cucse {
+    color: #fff;
+    font-size: 22px;
+}
+
+.about-cucse-paragraph {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.about-fest {
+    font-family: avenir;
+    font-weight: 800;
+    color: #4C4BD1;
+    font-size: 24px;
+
+}
+
+.about-fest-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #656565;
+    font-weight: 400;
+}
+
+.events-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    margin-bottom: 200px;
+}
+
+.event-header {
+    color: #4C4BD1;
+    font-size: 35px;
+    font-family: avenir;
+    font-weight: 600;
+}
+
+.event-card {
+    background: linear-gradient(to bottom, #FF5252, #FF3838);
+    width:330px;
+    height:200px;
+    padding: 20px 20px;
+    position: relative;
+    margin: 60px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2) ;
+}
+.event-card-header{
+    font-family: 'Josefin Sans' , sans-serif;
+    font-size: 24px;
+    color:#fff;
+    font-weight: 600;
+}
+.money-icon{
+    transform: scale(0.8,0.8);
+}
+.div-item-container{
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.li-detail{
+    font-family: avenir;
+    font-size: 13px;
+    color:#fff;
+    position: relative;
+    top:-6px;
+}
+.li-header{
+    font-family: avenir;
+    position: relative;
+    font-size: 14px;
+    color:#fff;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 8px;
+}
+.calendar-icon{
+    transform: scale(1.2,1.2);
+}
+.icon-container{
+    width: 40px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+#calendar{
+    position: relative;
+    left:8px;
+}
+.event-card-right{
+    position: absolute;
+    width:60%;
+    height:120%;
+    top:-10%;
+    right:-40px;
+    background-color: rgba(22,59,255,0.75);
+}
+.event-card-prize{
+    color:#fff;
+    font-family: avenir;
+    font-size: 13px;
+    width: 85%;
+    display: inline-block;
+    line-height: 20px;
+}
+.event-card-snippet{
+    font-family: avenir;
+    color:#fff;
+    font-size: 13px;
+    width: 85%;
+    position: relative;
+    top:20px;
+    line-height: 20px;
+}
+.highlight{
+    font-size: 20px;
+}
+.event-card-right-text{
+    margin-top: 30%;
+    margin-left: 20px;
+}
+.btn{
+    background: none;
+    outline: none;
+    border:none;
+}
+.read-more{
+    position: absolute;
+    right:22px;
+    bottom: 40px;
+    padding: 0;
+    display: inline;
+    margin: 0;
+}
+.read-more button{
+    color:#fff;
+    font-size: 14px;
+}
+.bar{
+    background-color: #fff;
+    width:60%;
+    height:5px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.btn-bar{
+    position: relative;
+    left:6px;
+    top:-7px;
+}
+table{
+    border: 10px solid transparent;
+}
+@font-face {
+    font-family: avenir;
+    src: url(../fonts/Avenir.ttc);
+}
